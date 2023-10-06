@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.movie-list {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  /* min-height: 1150px; */
+}
+.movie-container {
+  width: 450px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1.5px solid rgba(0, 0, 0, 0.0225);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+}
+.movie-description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  list-style: none;
+  margin: 5px;
+}
+.movie-poster {
+  width: 100%;
+  max-width: 180px;
+  max-height: 280px;
+}
+.movie-name {
+  font-size: 17px;
+  max-width: 205px;
+}
+.movie-data {
+  color: #827e7e;
+  margin-bottom: 5px;
+}
+.movie-genre {
+  margin: 2px;
+  white-space: nowrap;
+}
+.title-container {
+  display: flex;
+}
+.movie-bad {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e90000;
+  border-radius: 50%;
+}
+
+.movie-average {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e97e00;
+  border-radius: 50%;
+}
+
+.movie-good {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e9d100;
+  border-radius: 50%;
+}
+
+.movie-excellent {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #66e900;
+  border-radius: 50%;
+}
+
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 320px;
+  margin-bottom: 2px;
+}
